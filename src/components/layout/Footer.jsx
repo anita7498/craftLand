@@ -111,6 +111,7 @@ function Footer() {
                 Copywrite &copy; All rights reserved Lorem ipsum dolor, sit amet
                 consectetur adipisicing elit. Cum, quaerat?
               </Typography>
+              {/* Improvement - add animation */}
               <Typography>
                 <IconButton>
                   <InstagramIcon />
