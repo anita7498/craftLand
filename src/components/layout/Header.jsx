@@ -38,7 +38,7 @@ function Header() {
     <>
       <Box>
         <AppBar
-          position="static"
+          position="fixed"
           sx={{
             backgroundColor: "#1A3636",
             height: {
@@ -121,6 +121,7 @@ function Header() {
             </Box>
           </Toolbar>
         </AppBar>
+        <Toolbar />
         {/* improvement scope- use mediaQuery */}
         {isMenuOpen ? (
           <Box
