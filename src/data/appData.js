@@ -6,7 +6,10 @@ export const navigationItems = [
     { id: 4, label: 'about' }
 ];
 
-// const colorPalete = ;
+export const colorPalette = {
+    header: '#1A3636',
+    footer: '#F6B17A'
+};
 
 export const footerDetail = [
     {
@@ -96,3 +99,9 @@ export const basicDetail = {
     title: 'Craft Land',
     moto: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, quaerat?',
 }
+
+export const imageItems = {
+    heroSectionBgImage: 'src/data/mountains-1412683.svg',
+    heroSectionImage: 'src/data/cottagecore-9720409_1920.png'
+}
+

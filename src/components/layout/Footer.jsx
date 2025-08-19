@@ -13,14 +13,14 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { NavLink } from "react-router-dom";
 import React from "react";
-import { basicDetail, footerDetail, navigationItems } from "../../data/appData";
+import { basicDetail, footerDetail, colorPalette } from "../../data/appData";
 
 function Footer() {
   return (
     <>
       <Box
         sx={{
-          backgroundColor: "#D6BD98",
+          backgroundColor: `${colorPalette.footer}`,
           paddingY: 15,
           color: "#524C42",
         }}
