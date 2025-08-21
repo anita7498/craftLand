@@ -131,8 +131,9 @@ function Header() {
                 md: "none",
               },
               position: "absolute",
+              zIndex:'999',
               right: 0,
-              width: "50%",
+              width: {xs:'100%',sm:"60%"},
               border: "1px solid whitesmoke",
             }}
           >
