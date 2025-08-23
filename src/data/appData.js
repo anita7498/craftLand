@@ -8,7 +8,7 @@ export const navigationItems = [
 
 export const colorPalette = {
     header: '#1A3636',
-    footer: '#F6B17A'
+    footer: '#ffd4af'
 };
 
 export const footerDetail = [
@@ -102,6 +102,14 @@ export const basicDetail = {
 
 export const imageItems = {
     heroSectionBgImage: 'src/data/mountains-1412683.svg',
-    heroSectionImage: 'src/data/cottagecore-9720409_1920.png'
+    heroSectionImage: 'src/data/cottagecore-9720409_1920.png',
+    productSectionBgImage: 'src/data/flower-9173953_1920.png',
 }
+
+export const productSection = [
+    { id: 1, label: 'Paper', link: '/product', icon: 'src/data/icons8-origami-100.png', info: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, saepe?'},
+    { id: 2, label: 'Clay', link: '/product', icon: 'src/data/icons8-pottery-100.png', info: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, saepe?'},
+    { id: 3, label: 'Beads', link: '/product', icon: 'src/data/icons8-beads-100.png', info: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, saepe?'},
+    { id: 4, label: 'Wool', link: '/product', icon: 'src/data/icons8-wool-100.png', info: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit.elit. Eveniet, saepe?'},
+]
 

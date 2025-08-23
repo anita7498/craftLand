@@ -130,7 +130,7 @@ function Header() {
                 xs: "block",
                 md: "none",
               },
-              position: "absolute",
+              position: "fixed",
               zIndex:'999',
               right: 0,
               width: {xs:'100%',sm:"60%"},

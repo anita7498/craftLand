@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Card, CardMedia, Typography } from "@mui/material";
+import { Box, Button, Card, CardMedia, Paper, Typography } from "@mui/material";
 import { imageItems } from "../data/appData";
 import { useNavigate } from "react-router-dom";
 
@@ -14,7 +14,7 @@ function HeroSection() {
   return (
     <>
       <Box component="section">
-        <Card
+        <Paper
           sx={{
             height: {
               xs: "450px",
@@ -83,7 +83,7 @@ function HeroSection() {
               Read More
             </Button>
           </Box>
-        </Card>
+        </Paper>
       </Box>
     </>
   );
